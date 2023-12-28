@@ -1,4 +1,4 @@
-function consultaEndereco() {
+function buscarEndereco() {
     let cep = document.querySelector('#cep').value;
 
     if (cep.length !== 8) {

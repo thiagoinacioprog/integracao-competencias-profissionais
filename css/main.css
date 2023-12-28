@@ -1,12 +1,65 @@
+.navbar {
+    background-color: darkblue;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    padding: 5px 5px;
+}
 
+body {
+    display: block;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    
+}
 
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: darkblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#formulario {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 #resultado {
+    display: block;
+    justify-content: center;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 30px;
     max-width: 350px;
-    background-color: blanchedalmond;
-    border: 1px solid lightgray;
+    background-color: lightgray;
+    border: 1px solid darkblue;
     border-radius: 10px;
-    box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px darkblue;
+    
 }
+
+footer {
+    text-align: center;
+    margin-top: 125px;
+    background-color: darkblue;
+    color: beige;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    pad: 5px;
+}
+
+.social-media {
+    gap: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige !important;
+    justify-content: space-evenly;
+    
+    
+}
+

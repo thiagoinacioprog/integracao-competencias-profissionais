@@ -1,21 +1,55 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Consulta CEP</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
+
 <body>
-    <h1>Busca CEP</h1>
-    <label>Digite um CEP:</label>
-    <input type="number" id="cep" />
-    <button onclick="consultaEndereco()">Consultar</button>
-    <div id="resultado">
-        <p>Seu resultado aqui</p>
-    </div>
+    <nav class="navbar">Busca CEP Brasil</nav>
+    <main>
+        <h1>Busca CEP</h1>
+        <div id="formulario">
+            <label>Digite um CEP:</label>
+            <input type="number" id="cep" />
+            <button onclick="buscarEndereco()">Buscar</button>
+        </div>
+        <div id="resultado">
+            <p>Seu resultado aqui...</p>
+        </div>
+    </main>
+    <footer>
+        <p>Siga-me nas Redes Socias</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/" style="color: beige;" target="_blank">
+                <i class="fa fa-facebook-official"></i>
+                Facebook
+            </a>
+
+            <a href="https://www.instagram.com/" style="color: beige;">
+                <i class="fa fa-instagram"></i>
+                Instagram
+            </a>
+
+            <a href="https://twitter.com" style="color: beige;">
+                <i class="fa fa-twitter"></i>
+                Twitter
+            </a>
+
+            <a href="https://br.linkedin.com/" style="color: beige;">
+                <i class="fa fa-linkedin"></i>
+                Linkedin
+            </a>
+        </div>
+
+    </footer>
 
     <script src='./js/main.js'></script>
 </body>
+
 </html>
